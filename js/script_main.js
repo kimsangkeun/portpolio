@@ -66,8 +66,8 @@ window.addEventListener('load', ()=>{
 })
 
 $(function(){
-    /* Practical Section Slider */
-    $('.practical-slider').slick({
+
+    $('.portpolio2_slider').slick({
           arrows: true,
           dots: true,
           infinite: true,
