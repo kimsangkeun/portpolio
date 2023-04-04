@@ -1,0 +1,189 @@
+
+
+
+/*close*/
+.menu .menuwrap .close:nth-child(1) {position:absolute;top:50%; transform: translateY(-50%); left:30px; }
+.menu .menuwrap .close.en {position: absolute; right: 50px; top:50px;font-size: 25px; border-bottom: 1px solid #888; color: #888;}
+
+/*.menu */
+
+.menu .menuwrap {width: 0%; transition: all 0s; transform: skewY(40deg); opacity: 0;}
+.menu .menuwrap.on {width: 100%; transform: skewY(0deg); transition: all 0.5s; opacity: 1; }
+
+/*ul li*/
+.menu .menuwrap ul {display: none;}
+.menu .menuwrap.on ul {display: block;}
+
+/*메뉴열었을 때 동그라미*/
+.menu .menuwrap.on:before {content: ''; width: 700px; height: 700px; background: #fff; position: absolute; top: 50%; transform: translateY(-50%); left: 30%; border-radius: 100%;}
+.menu .menuwrap.on:before {animation-name: menuwrap2; animation-duration: 1.8s;}
+
+
+
+
+@media screen and (max-width:1720px){ /*1720px~1401px사이*/
+    .innerheader {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
+    .innerheader .mainmenu .sns {margin-left: 200px;}
+    section.visual {max-width: 100%; padding: 0 30px; box-sizing: border-box;}
+    section.visual .maintxt {margin-top: 150px;}
+    section.visual .maintxt .tit {font-size: 62px;}    
+}
+/*1024 테블릿모드*/
+@media screen and (max-width:1400px){/*1400px~1024px사이*/
+    section.visual .maintxt {margin-top: 100px;}
+    section.visual .maintxt .tit {font-size: 46px;}
+    section.visual .maintxt .txt{padding: 20px 0px 0px 0px;}
+    section .inner{width: 100%; padding: 0 30px; box-sizing: border-box;}
+    .img img {width:100%;}
+    /*section.profile{overflow: hidden;}*/
+    section.profile .scroll{display: none;}
+    section.profile .circlebox{ right: -10%; top:0;}
+    section.profile .inner .box .img{width: 90%;}
+    section.customer {padding: 160px 0;}
+    footer {width: 100%; padding: 0 30px; box-sizing: border-box;}
+    section.portpolio2 .inner .box .btn_left{text-align: center;}
+}
+
+/*1024 이하 테블렛*/
+@media screen and (max-width:1000px){/*768px 까지*/
+    .innerheader {height: 80px; line-height: 80px;}
+    .innerheader .mainmenu{width: 0; height: 0; opacity: 0; display: none;}
+    .menu button.open{position: absolute; top: 0; transform: none; width: 70px; height: 80px; padding: 0; line-height: 80px;}
+    .menu button.open:before {display: none;}
+    section.visual .mainimg {width: 100%; float: none;}
+    section.visual .mainimg img {width: 100%;}
+    section.visual .maintxt{width: 100%; float: none; margin-top: 50px;}
+    section .inner .box {float: none; width: 100%;}
+    section.profile{padding: 80px 0;}
+    section.profile .circlebox {top:200px;}
+    section.profile .inner .box .img {margin: 0 auto 50px; padding-top: 0; width: 80%; }
+    section.portpolio_wrap {padding: 80px 0;}
+    section.portpolio_wrap .txt {margin-top: 20px;}
+    section.portpolio_wrap .inner .box.design {margin-top: 50px; width: 100%;}
+    section.portpolio_wrap .inner .box .img { margin: 50px auto 0; width:90%;}
+  
+    section.portpolio_wrap .inner .box.design .img {width: 70%; margin:50px 0 0;}
+    section.portpolio_wrap .img.motion:after {background: #fff;}
+    section.portpolio_wrap .inner .box.design .tit {font-size: 35px;}
+    section.customer{padding: 120px 0;}
+    section.customer .tit {font-size: 30px;}
+    section.portpolio2{padding: 80px 0; overflow: hidden}
+    section.portpolio2 .circlebox {left: 15%;}
+    section.portpolio2 .inner .box.left {padding-right: 0; overflow: hidden;}
+    section.portpolio2 .inner .box .img{margin-top: 50px; width: 70%; float: right; clear: both;} 
+    section.portpolio2 .inner .box:nth-child(2) .img {width: 100%; margin: 50px 0;}
+    section.portpolio2 .inner .box .tit {margin-top: 0; clear: both;}
+    section.portpolio2 .inner .box.left .morebtn { margin-right: 5px;}
+    section.portpolio2 .inner{width: auto;}
+    section.portpolio2 .inner .box.right{width: auto;}
+    footer .bottom ul li:nth-child(1) {width: 100%; margin-bottom: 30px;}
+    footer .bottom ul li {width: 33.3333%;}
+    section.portpolio2 .inner .box.right{margin-left: 0;}
+    section.portpolio2 .inner .box .btn_left{text-align: center;}
+    section.portpolio2 .inner .box .img img{margin-top: 30px; width: 50%; text-align: right;}
+    section.portpolio2 .inner .box.left .img{width: 100%;}
+
+    
+}
+
+/*모바일해상도 767px이하*/
+@media screen and (max-width:767px){
+    body{font-size: 13px; overflow-x: hidden;}
+    .logo img{width: 50px; height: 50px;}
+    .menu .open img{width: 10px; height: 5px;}
+    .close img{width: 15px; height: 15px;}
+    .innerheader {height: 60px; line-height: 60px; padding: 0 20px;}
+    .menu button.open {height: 60px;  line-height: 60px; width:52px;}
+    .menu button.open img {height: 38px;}
+    .menu .menuwrap .tit {font-size: 35px; left: 20px;}
+    .menu .menuwrap .close:nth-child(1) {top:20px; left: 20px; transform: none;}
+    .menu .menuwrap .close.en {display: none;}
+    .menu .menuwrap.on:before {left: 20%;}
+    section.visual{padding: 0 20px;}
+    .tit {font-size: 30px;}
+    section.visual .maintxt .tit {font-size: 31px;}
+    .tit span.en_s {font-size: 18px;}
+    
+    .morebtn{font-size: 12px;}
+    section .inner {padding: 0 20px;}
+    section.profile {padding: 50px 0;}
+    section.profile .circlebox {top:15%; right: -4%;}
+    section.profile .inner .box .img {width: 100%; margin-bottom: 30px;}
+    section.profile .inner .box .tit {margin-bottom: 20px;}
+    section.profile .inner .box ul {padding-top: 20px;}
+    section.profile .inner .box ul li {margin-bottom: 20px;}
+    section.profile .inner .box ul li h3 {width: 100%; margin-bottom: 10px;}
+    section.profile .inner .box ul li p {font-size: 12px; width: 100%;}
+    section.profile .inner .box .morebtn {margin-left: 0;}
+    section.profile .inner .box .img.leftimg{padding-left: 0}
+    section.portpolio_wrap {padding: 50px 0;}
+
+    section.portpolio_wrap .inner .box .img {width: 100%; margin-top: 30px;}
+
+    section.customer {padding: 80px 20px;}
+    section.customer .tit {font-size: 25px;}
+    section.portpolio1 { height: 100%;}
+    section.portpolio1 ul {padding-top: 0;}
+    section.portpolio2 {padding: 50px 0;}
+    section.portpolio2 .circlebox {left: 4%;}
+    section.portpolio2 .inner .box .txt {margin: 30px 0 10px;}
+    section.portpolio2 .inner .box .img {margin-top: 30px;}
+    section.portpolio2 .inner .box.left .img{width:100%;}
+    section.portpolio2 .inner .box.right .img{}
+    section.portpolio2 .inner .box:nth-child(2) .img {margin: 30px 0;}
+    footer {padding: 0 20px;}
+    footer .top .tit {font-size: 31px; padding-bottom: 30px;}
+    footer .bottom ul li:nth-child(1) {font-size: 20px;}
+    footer .bottom ul li {width: 100%; margin-bottom: 12px;}
+    footer .bottom ul li b:nth-child(1) {font-size: 13px;}
+    section.profile .inner .box.humanimg{padding: 50px 0 0 0; margin: 0 auto; }
+
+ 
+    section.portpolio2 .inner .box .img img{margin-top: 30px; width: 50%;}
+    /* section.portpolio2 .inner .box .tit span.txt_right b{text-align: left;}
+     */
+     section.portpolio2 .inner .box .img{width: 50%;}
+     section.portpolio2 .inner .box .btn_left{text-align: center;}
+}
+     section.portpolio2 .inner .box .txt p.txt_right{text-align: center ;}
+     section.portpolio2 .inner .box{margin: 0;}
+     section.portpolio2 .inner .box.left{text-align: center;}
+        section.portpolio2 .inner .box{text-align: center;}
+        section.portpolio2 .inner .box  a.btn_left{text-align: center; }
+        section.portpolio2 .inner .box span.txt_top b{margin-top: 50px;}
+        
+    /*320모바일*/
+    @media screen and (max-width:320px) {
+        body{font-size: 12px; overflow-x: hidden;}
+        
+        .logo img{width: 50px; height: 50px;}
+        .mainimg img{width: 100%;}
+        .tit span.en_s {font-size: 16px;}
+        section.visual .maintxt .tit, .tit,footer .top .tit {font-size: 27px;}
+        .menu .menuwrap .tit {font-size: 27px;}
+        section.profile .inner .box ul li h3 {font-size: 14px;}
+        .morebtn {font-size: 11px;}
+        section.portpolio1 ul {  grid-template-columns: 1fr;}
+        section.portpolio1 ul p.title, section.portpolio1 ul .category{font-size: 10px;}
+        section.portpolio2 .inner .box .img img{margin-top: 30px; width: 50%;}
+        section.portpolio2 .inner .box.left{text-align: center;}
+        section.portpolio2 .inner .box{text-align: center;}
+        section.portpolio2 .inner .box a.btn_left{text-align: center;}
+        section.portpolio2 .inner .box .txt p.txt_right{text-align: center;}
+        section.portpolio2 .inner .box span.txt_top b{margin-top: 50px;}
+       
+}
+
+
+@media (max-width: 768px) {
+    .section-inner {
+      padding: 20px;
+      width: 100%;
+    }
+    .practical-item {
+      width: 100%;
+    }
+    .practical-content h4 {
+      margin-left: 20px;
+    }
+  }
