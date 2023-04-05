@@ -31,16 +31,10 @@ $(function(){
 });
 
 
-// portfolio bg, popup
-$('.bg, .popup').hide();
-$('.design').click(function() {
-    const src = $(this).find('img').attr('data-file');
-    $('.popup img').attr('src', src);
-    $('.bg, .popup').fadeIn();
-});
-$('.popup button').click(function() {
-    $('.bg, .popup').fadeOut();
-});
+
+
+
+
 
 
 
@@ -63,6 +57,32 @@ window.addEventListener('load', ()=>{
         
   }, 2000); // <-* 로딩속도 구현
 
+})
+
+// lodash
+
+let toTopEl = document.querySelector('#to-top');
+window.addEventListener('scroll', _.throttle(function(){
+    console.log(window.scrollY);
+    if(window.scrollY > 500){
+        
+        gsap.to(toTopEl, .2,{
+            x: 0
+        });
+    } else{
+       
+        //버튼 숨기기
+        gsap.to(toTopEl, .2,{
+            x: 100
+        });
+    }
+}, 300)); //_.throttle(함수,시간)
+
+
+toTopEl.addEventListener('click', function(){
+    gsap.to(window, .7,{
+        scrollTo: 0
+    });
 })
 
 $(function(){
@@ -96,8 +116,8 @@ $(function(){
           ]
       });
   })
-  
-  
+
+
 
 
           
