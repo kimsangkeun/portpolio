@@ -27,7 +27,7 @@ body {font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color: #333; ove
 .tit span b{font-weight: normal;} 
 .tit span.en_s {font-size: 22px; font-weight: normal;}
 .tit span.gray {color:#ccc;}
-.txt p{color: #888; line-height: 1.6; margin-bottom: 10px;}
+.txt p{color: #888; line-height: 1.6; margin-bottom: 10px; font-size: 16px;}
 .txt p b {font-weight: normal;}
 .morebtn { text-decoration: none!important; display: inline-block; color: #333 !important; position: relative; padding-left: 45px; margin-top: 20px; transform: skewX(-15deg) translateX(5px); transition: all 0.15s;}
 .morebtn:before { content: ''; width: 42px; height: 1px; background: #333 !important; position: absolute; left: 0; top:54%; }
@@ -66,7 +66,7 @@ span.bar {position: absolute; left: 0; bottom: 40px; width:0; height: 3px; backg
 /*gnb*/
 .innerheader .mainmenu .gnb { text-decoration: none!important;float: left;}
 .innerheader .mainmenu .gnb li {text-decoration: none!important; float: left; margin:0 20px;}
-.innerheader .mainmenu .gnb li a {text-decoration: none!important; display: block; width: 100%; height: 100%; color:#555;}
+.innerheader .mainmenu .gnb li a {text-decoration: none!important; display: block; width: 100%; height: 100%; color:#555; font-size: 16px;}
 
 
 /*section.visual*/
@@ -75,7 +75,7 @@ section.visual .mainimg {float: left; width: 50%;}
 section.visual .mainimg img{width: 90%;}
 section.visual .maintxt {float: left; width: 50%; margin-top: 180px;}
 section.visual .maintxt .tit {font-size: 72px;}
-section.visual .maintxt .txt {padding: 50px 0 0 70px;}
+section.visual .maintxt .txt {padding-top: 50px; font-size: 16px;}
 
 
 
@@ -88,8 +88,8 @@ section.profile .inner{margin: 0 auto;}
 section.profile .inner .box .tit {margin-bottom: 40px;}
 section.profile .inner .box ul {border-top: 1px solid #e6e6e6; padding-top: 40px;}
 section.profile .inner .box ul li {margin-bottom: 30px; overflow: hidden;}
-section.profile .inner .box ul li h3{ float: left; width: 22%; font-size: 15px; font-weight: bold;}
-section.profile .inner .box ul li p {float: left; width: 78%; color: #888;}
+section.profile .inner .box ul li h3{ float: left; width: 22%; font-size: 20px; font-weight: bold;}
+section.profile .inner .box ul li p {float: left; width: 78%; color: #888; font-size: 16px;}
 section.profile .inner .box .morebtn {clear: both; margin-left: 22%;}
 section.profile .inner .box.humanimg{width:50%; padding-top: 100px; padding-left: 200px;}
 
@@ -156,10 +156,10 @@ footer {width: 1320px; margin: auto;}
 footer .top .tit {color: #e6e6e6; font-size: 62px; text-align: center; margin-bottom: 40px;}
 footer .bottom {border-top: 1px solid #e6e6e6; padding: 40px 0 100px;}
 footer .bottom ul {overflow: hidden;}
-footer .bottom ul li {float: left; width: 23%; color: #aaa; font-size: 12px; line-height: 2;}
+footer .bottom ul li {float: left; width: 23%; color: #aaa; font-size: 16px; line-height: 2;}
 footer .bottom ul li:nth-child(1) {width: 31%; font-size: 28px; color: #000; line-height: 1.1;}
 footer .bottom ul li b{color: #333; font-weight: normal;}
-footer .bottom ul li b:nth-child(1) { display: inline-block; margin-bottom: 12px; font-size: 14px; color:#333;}
+footer .bottom ul li b:nth-child(1) { display: inline-block; margin-bottom: 12px; font-size: 18px; color:#333;}
 
 
 

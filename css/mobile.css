@@ -145,6 +145,14 @@
      */
      section.portpolio3 .inner .box .img{width: 50%;}
      section.portpolio3 .inner .box .btn_left{text-align: center;}
+     section.visual .maintxt .txt { font-size: 14px;}
+     section.profile .inner .box ul li p { font-size: 14px;}
+     section.visual p b{font-size: 14px;}
+     section.profile .inner .box ul li h3{ font-size: 16px; font-weight: bold;}
+     section.profile .inner .box ul li p { font-size: 14px;}
+     .txt p{font-size: 14px;}
+     footer .bottom ul li b:nth-child(1){font-size: 16px;}
+     footer .bottom ul li {font-size: 14px;}
 }
      section.portpolio3 .inner .box .txt p.txt_right{text-align: center ;}
      section.portpolio3 .inner .box{margin: 0;}
@@ -172,6 +180,8 @@
         section.portpolio3 .inner .box a.btn_left{text-align: center;}
         section.portpolio3 .inner .box .txt p.txt_right{text-align: center;}
         section.portpolio3 .inner .box span.txt_top b{margin-top: 50px;}
+        section.visual .maintxt .txt { font-size: 14px;}
+        section.profile .inner .box ul li p { font-size: 14px;}
        
 }
 
@@ -187,5 +197,6 @@
     .portpolio2_content h4 {
       margin-left: 20px;
     }
-
+    section.visual .maintxt .txt { font-size: 14px;}
+        section.profile .inner .box ul li p { font-size: 14px;}
   }
