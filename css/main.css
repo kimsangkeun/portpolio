@@ -56,7 +56,7 @@ section .inner .box {float: left; width: 50%;}
 /*header*/
 header{ position: fixed; top: 0; left: 0; right: 0; z-index: 10; background: #fff;}
 .innerheader {text-decoration: none!important; max-width: 1720px; height: 110px; line-height: 110px;  margin:auto;}
-.innerheader .logo {float: left; cursor: pointer;}
+.innerheader .logo {float: left; cursor: pointer; }
 .innerheader .logo a{display: block; width: 100%; height: 100%;}
 .innerheader .mainmenu {text-decoration: none!important; float: right; overflow: hidden; position: relative;}
 span.bar {position: absolute; left: 0; bottom: 40px; width:0; height: 3px; background: #e7e7e7; transition: all 0.4s; }

@@ -48,7 +48,7 @@
 @media screen and (max-width:1000px){/*768px 까지*/
     .innerheader {height: 80px; line-height: 80px;}
     .innerheader .mainmenu{width: 0; height: 0; opacity: 0; display: none;}
-    .menu button.open{position: absolute; top: 0; transform: none; width: 70px; height: 80px; padding: 0; line-height: 80px;}
+    .menu button.open{position: fixed; top: 0; transform: none; width: 70px; height: 80px; padding: 0; line-height: 80px;}
     .menu button.open:before {display: none;}
     section.visual .mainimg {width: 100%; float: none;}
     section.visual .mainimg img {width: 100%;}
@@ -89,8 +89,8 @@
 /*모바일해상도 767px이하*/
 @media screen and (max-width:767px){
     body{font-size: 13px; overflow-x: hidden;}
-    .logo img{width: 50px; height: 50px;}
-    .menu .open img{width: 10px; height: 5px;}
+    .logo img{width: 50px; height: 60px;}
+    .menu .open img{width: 15px; height: 5px;}
     .close img{width: 15px; height: 15px;}
     .innerheader {height: 60px; line-height: 60px; padding: 0 20px;}
     .menu button.open {height: 60px;  line-height: 60px; width:52px;}
