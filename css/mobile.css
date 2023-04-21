@@ -104,6 +104,7 @@
     section.visual .maintxt .tit {font-size: 31px;}
     .tit span.en_s {font-size: 18px;}
     
+    
     .morebtn{font-size: 12px;}
     section .inner {padding: 0 20px;}
     section.profile {padding: 50px 0;}
@@ -186,4 +187,5 @@
     .portpolio2_content h4 {
       margin-left: 20px;
     }
+
   }

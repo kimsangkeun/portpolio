@@ -143,7 +143,7 @@ section .portpolio2_content h2 span b{display: block; margin-bottom: 100px;}
 /*section.portpolio3*/
 section.portpolio3 {padding: 190px 0; position: relative;}
 section.portpolio3 .inner{width: 1620px; margin: 0 auto; overflow: hidden;}
-section.portpolio3 .inner .box.right{width: 700px; margin-left: 100px; box-sizing: border-box;}
+section.portpolio3 .inner .box.right{ width: 700px; margin-left: 100px; box-sizing: border-box;}
 section.portpolio3 .inner .box.left {text-align: center;  padding-right: 80px; box-sizing: border-box;}
 section.portpolio3 .inner .box{text-align: center;}
 section.portpolio3 .inner .box .tit {margin-top:40px; }
