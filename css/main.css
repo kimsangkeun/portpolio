@@ -121,7 +121,6 @@ section.portpolio1 ul li a .detail .category {letter-spacing: 0.1em; color: #888
 
 
 /* setion.portpolio2  */
-
 section .portpolio2_content h2 span b{display: block; margin-bottom: 100px;}
 .section_inner { width: 1280px; margin: 100px auto;}
 .portpolio2_item {margin: 0 5px;}
@@ -129,12 +128,13 @@ section .portpolio2_content h2 span b{display: block; margin-bottom: 100px;}
 .portpolio2_item img { width: 100%; border-radius: 5px; border: 1px solid #ddd; transition: 0.35s;}
 
 /* Slick */
-.portpolio2_slider .slick-prev { left: -40px;}
-.portpolio2_slider .slick-prev:before { content: '\ea64'; font-family: remixicon; color: #ccc; font-size: 35px;}
-.portpolio2_slider .slick-next { right: -30px;}
-.portpolio2_slider .slick-next:before { content: '\ea6e'; font-family: remixicon; color: #ccc; font-size: 35px;}
-.portpolio2_slider .slick-dots li button::before { font-size: 30px; color: #ccc; }
-
+.portpolio2_slider .slick-initialized.slick-slider.slick-dotted{position: relative;}
+.portpolio2_slider button.slick-prev { left: -40px;}
+.portpolio2_slider button.slick-prev:before { content: '\ea64'; font-family: remixicon; color: #ccc; font-size: 35px;}
+.portpolio2_slider button.slick-next { right: -40px;}
+.portpolio2_slider button.slick-next:before { content: '\ea6e'; font-family: remixicon; color: #ccc; font-size: 35px;}
+.portpolio2_slider button.slick-dots li button::before { font-size: 30px; color: #ccc; }
+.portpolio2_slider ul.slick-dots{display: none;}
 
 
 
