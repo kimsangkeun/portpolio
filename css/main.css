@@ -11,7 +11,7 @@
 /* Remix Icon */
 
 
-
+.mmb{display: block;}
 
 
 
@@ -122,7 +122,7 @@ section.portpolio1 ul li a .detail .category {letter-spacing: 0.1em; color: #888
 
 /* setion.portpolio2  */
 section .portpolio2_content h2 span b{display: block; margin-bottom: 100px;}
-.section_inner { width: 1280px; margin: 100px auto;}
+.section_inner { width: 1420px; margin: 100px auto;}
 .portpolio2_item {margin: 0 5px;}
 .portpolio2_item:hover img { border: 1px solid #ddd;}
 .portpolio2_item img { width: 100%; border-radius: 5px; border: 1px solid #ddd; transition: 0.35s;}
@@ -216,7 +216,7 @@ section.portpolio3 .circlebox.svg_left{width: 700px; position: absolute; bottom:
     30%{opacity: 0; transform: translate3d(0,40px,0)skewY(8deg); transform-origin: top left;}
 }
 .tit.motion.text_ani span{transform: translate3d(0,0,0)skewY(0deg);overflow: hidden;}
-.tit.motion.text_ani span b{display:block; animation-name: textAni; animation-duration: 4.3s;}
+.tit.motion.text_ani span b{display:block; animation-name: textAni; animation-duration: 1.3s;}
 @keyframes textAni {
     0%{opacity: 0;}
     30%{opacity: 0; transform: translate3d(0,40px,0)skewY(8deg); transform-origin: top left;}
@@ -227,7 +227,7 @@ section.portpolio3 .circlebox.svg_left{width: 700px; position: absolute; bottom:
 .txt.motion p b { display: block; animation-name: textAni; animation-duration:2s; }
 
 .txt.motion.text_ani p {transform: translate3d(0,0,0)skewY(0deg); overflow: hidden;  }
-.txt.motion.text_ani p b { display: block; animation-name: textAni; animation-duration:5.3s; }
+.txt.motion.text_ani p b { display: block; animation-name: textAni; animation-duration:2.3s; }
 
 /*이미지 애니메이션*/
 .img.motion {position: relative; animation-name: imgAni; animation-duration: 1s;}
