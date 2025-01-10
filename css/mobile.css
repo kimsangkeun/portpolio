@@ -88,6 +88,7 @@
 
 /*모바일해상도 767px이하*/
 @media screen and (max-width:767px){
+    html{overflow-x: hidden;}
     .mmb{display: none;}
     body{font-size: 13px; overflow-x: hidden;}
     .logo img{width: 50px; height: 60px;}
